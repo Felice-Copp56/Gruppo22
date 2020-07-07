@@ -8,8 +8,7 @@
   <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/jumbotron/">
 
   <!-- Bootstrap core CSS -->
-  <link href="bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link href="bootstrap.min.css" rel="stylesheet">
 
   <!-- Favicons -->
   <link rel="apple-touch-icon" href="https://getbootstrap.com/docs/4.5/assets/img/favicons/apple-touch-icon.png"
@@ -28,11 +27,13 @@
 
   <!-- Custom styles for this template -->
   <link href="style.css" rel="stylesheet">
-  </head>
+</head>
 
 <body cz-shortcut-listen="true">
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <a class="navbar-brand" href="https://getbootstrap.com/docs/4.5/examples/jumbotron/#">Evergreen</a>
+    <a class="navbar-brand" href="#">
+      <img src="img/logo testo.svg" width="150" height="50" class="d-inline-block align-top" alt="">
+    </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
       aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -41,8 +42,8 @@
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="https://getbootstrap.com/docs/4.5/examples/jumbotron/#">Login<span
-              class="sr-only">(current)</span></a>
+          <a class="nav-link" href="https://getbootstrap.com/docs/4.5/examples/jumbotron/#">Non so se va bene logout
+            qui<span class="sr-only">(current)</span></a>
         </li>
       </ul>
     </div>
@@ -65,30 +66,74 @@
   <div class="container">
     <!-- Example row of columns -->
     <div class="row">
-      <div class="col-md-4">
-        <h2>Heading</h2>
-        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris
-          condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod.
-          Donec sed odio dui. </p>
-        <p><a class="btn btn-secondary" href="https://getbootstrap.com/docs/4.5/examples/jumbotron/#" role="button">View
-            details »</a></p>
+      <div class="col m-3">
+        <div class="card border-0 ">
+          <img class="card-img-top" src="img/download.jpg" alt="Card image cap">
+          <span class="badge badge-primary rounded-0" style="background-color: #10AC84;">Categoria</span>
+          <div class="card-body">
+            <h5 class="card-title">Titolo</h5>
+            <p class="card-text">Some quick example text to...</p>
+            <a href="#" class="btn btn-primary float-right ">Leggi di più</a>
+            <span class="font-weight-bold">Data</span>
+          </div>
+
+        </div>
       </div>
-      <div class="col-md-4">
-        <h2>Heading</h2>
-        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris
-          condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod.
-          Donec sed odio dui. </p>
-        <p><a class="btn btn-secondary" href="https://getbootstrap.com/docs/4.5/examples/jumbotron/#" role="button">View
-            details »</a></p>
+      <div class="col m-3">
+        <div class="card border-0">
+
+          <img class="card-img-top" src="img/download.jpg" alt="Card image cap">
+          <span class="badge badge-primary rounded-0" style="background-color: #10AC84;">Categoria</span>
+
+          <div class="card-body">
+            <h5 class="card-title">Titolo</h5>
+            <p class="card-text">Some quick example text to...</p>
+            <a href="#" class=" btn btn-primary float-right">Leggi di più</a>
+            <span class="font-weight-bold">Data</span>
+          </div>
+
+        </div>
       </div>
-      <div class="col-md-4">
-        <h2>Heading</h2>
-        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta
-          felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum
-          massa justo sit amet risus.</p>
-        <p><a class="btn btn-secondary" href="https://getbootstrap.com/docs/4.5/examples/jumbotron/#" role="button">View
-            details »</a></p>
+      <div class="col m-3">
+        <div class="card border-0">
+
+          <img class="card-img-top" src="img/download.jpg" alt="Card image cap">
+          <span class="badge badge-primary rounded-0" style="background-color: #10AC84;">Categoria</span>
+
+          <div class="card-body">
+            <h5 class="card-title">Titolo</h5>
+            <p class="card-text">Some quick example text to...</p>
+            <a href="#" class="btn btn-primary float-right">Leggi di più</a>
+            <span class="font-weight-bold">Data</span>
+          </div>
+
+        </div>
       </div>
+      <div class="col m-3 border-left">
+        <ul class="nav flex-column ">
+          <li class="nav-item">
+            <p class="font-weight-bold mb-1">Ordina per data</p>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Data1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Data2</a>
+          </li>
+        </ul>
+        <ul class="nav flex-column ">
+          <li class="nav-item">
+            <p class="font-weight-bold mb-1">Ordina per categoria</p>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Categoria1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Categoria2</a>
+          </li>
+        </ul>
+      </div>
+
     </div>
 
     <hr>
@@ -100,12 +145,8 @@
   <footer class="container">
     <p>©Evergreen 2020</p>
   </footer>
-  <script src="jquery-3.5.1.slim.min.js.download"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="bootstrap.bundle.min.js.download"
-    integrity="sha384-1CmrxMRARb6aLqgBO7yyAxTOQE2AKb9GfXnEo760AUcUmFx3ibVJJAzGytlQcNXd"
-    crossorigin="anonymous"></script>
+  <script src="jquery-3.5.1.slim.min.js.download"></script>
+  <script src="bootstrap.bundle.min.js.download"></script>
 
 
 </body>
