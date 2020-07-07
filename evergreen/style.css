@@ -6,3 +6,7 @@ body {
 .navbar-dark{
   background-color:#10AC84!important;
 }
+.btn-primary{
+  background-color: #10AC84!important;
+  border-color: aliceblue;
+}
