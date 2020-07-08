@@ -10,7 +10,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-9 col-lg-8 mx-auto">
-              <h3 class="login-heading mb-4">Bentornato!</h3>
+              <h3 class="login-heading mb-4">Recupera la tua password!</h3>
               <form>
                 <div class="form-label-group">
                   <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
@@ -19,18 +19,17 @@
 
                 <div class="form-label-group">
                   <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-                  <label for="inputPassword">Password</label>
+                  <label for="inputPassword">Nuova Password</label>
                 </div>
-
-                <div class="custom-control custom-checkbox mb-3">
-                  <input type="checkbox" class="custom-control-input" id="customCheck1">
-                  <label class="custom-control-label" for="customCheck1">Ricorda password</label>
+                
+                 <div class="form-label-group">
+                  <input type="password" id="inputCPassword" class="form-control" placeholder="CPassword" required>
+                  <label for="inputCPassword">Conferma Nuova Password</label>
                 </div>
-                <button class="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2" type="submit">Login</button>
-                <div class="text-center">
-                  <a class="small" href="Recupero-pw-utente.html">Hai dimenticato la password?</a></div>
+                <br>
+                <button class="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2" onclick="location.href='Login-azienda.html'">Conferma</button>
+                
               </form>
-              <h3 class="login-heading mb-4">Non sei registrato?  <a class="btn-registrati" href="Registrazione-utente.html"> Registrati! </a> </h3> 
             </div>
           </div>
         </div>

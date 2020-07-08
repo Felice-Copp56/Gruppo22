@@ -7,7 +7,7 @@
 .card-signin .card-img-left {
   width: 45%;
   /* Link to your background image using in the property below! */
-  background: scroll center url('sfondo-login.jpg');
+  background: scroll center url('img/sfondo-login.jpg');
   background-size: cover;
 }
 
@@ -17,6 +17,10 @@
 
 .form-signin {
   width: 100%;
+}
+
+.label-size {
+  margin-left: 5px;
 }
 
 .form-signin .btn {
@@ -93,5 +97,14 @@ button.btn.btn-lg.btn-primary.btn-block.text-uppercase {
   padding-bottom: calc(var(--input-padding-y) / 3);
   font-size: 12px;
   color: #777;
+}
+
+.registration-heading {
+  font-weight: 300;
+}
+
+.btn-login {
+  border:none;
+  background-color: #fff;
 }
 
