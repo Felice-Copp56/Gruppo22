@@ -10,12 +10,17 @@
         <div class="container">
           <div class="row">
             <div class="col-md-9 col-lg-8 mx-auto">
-              <h3 class="login-heading mb-4">Registra la tua Azienda!</h3>
+              <h3 class="login-heading mb-4">Registrati!</h3>
               <form>
                 <div class="form-label-group">
-                    <input type="text" id="inputAzienda" class="form-control" placeholder="Nome Azienda" required autofocus>
-                    <label for="inputAzienda">Azienda</label>
+                    <input type="text" id="inputNome" class="form-control" placeholder="Nome" required>
+                    <label for="inputNome">Nome</label>
                   </div>
+                  
+                <div class="form-label-group">
+                    <input type="text" id="inputCognome" class="form-control" placeholder="Cognome" required>
+                    <label for="inputCognome">Cognome</label>
+                </div>
 
                 <div class="form-label-group">
                   <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required >
@@ -31,7 +36,12 @@
                     <input type="password" id="inputCPassword" class="form-control" placeholder="Conferma Password" required>
                     <label for="inputCPassword">Conferma Password</label>
                   </div>
-
+                
+                  <div class="form-label-group">
+                    <input type="date" id="InputData" class="form-control" placeholder="Data di nascita" required>
+                    <label for="InputData">Data di nascita</label>
+                  </div>
+                    
                 <div class="form-label-group">
                     <input type="text" id="inputCitta" class="form-control" placeholder="Citt&#224;" required>
                     <label for="inputCitta">Citt&#224;</label>
@@ -48,13 +58,13 @@
                 </div>
                 
                 <div class="form-label-group">
-                    <input type="text" id="inputTelefono" class="form-control" placeholder="Numero di telefono" required>
-                    <label for="inputTelefono">Numero di telefono</label>
+                    <input type="text" id="inputTelefono" class="form-control" placeholder="Numero di Cellulare" required> 
+                    <label for="inputTelefono">Numero di Cellulare</label>
                 </div>
                 
                 <div class="form-label-group">
-                    <textarea id="inputDescrizione" class="form-control" placeholder="Breve Descrizione Azienda (130 caratteri)" rows="3" maxlength="130" required></textarea>
-                    <label for="inputDescrizione">Breve Descrizione Azienda(130 caratteri)</label>
+                    <textarea id="inputCompetenze" class="form-control" placeholder="Competenze personali (130 caratteri)" rows="3" maxlength="130" required></textarea>
+                    <label for="inputCompetenze">Competenze personali (130 caratteri)</label>
                 </div>
                
                 <button class="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2" type="submit">Registrati</button>
