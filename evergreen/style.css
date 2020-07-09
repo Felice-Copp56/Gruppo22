@@ -11,4 +11,9 @@ body {
   border-color: aliceblue;
 }
 
+img.card-img-top{
+  height: 148px!important;
+  width: 223px!important;
+}
+
 
