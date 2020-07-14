@@ -140,11 +140,16 @@
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
-                  <button type="button" class="btn btn-secondary" id="yesButton" data-dismiss="modal" onclick="alert('Annuncio pubblicato con successo! Tornerai alla home'); window.location.href='Articoli.html'">Si</button>
+                  <button type="button" class="btn btn-secondary" id="yesButton" onclick="f()">Si</button>
                 </div>
+              </div>
+              <div class="alert alert-success" id="alert" hidden="true" role="alert">
+                Annuncio pubblicato con successo! Sarai reindirizzato alla homepage.
               </div>
             </div>
           </div>
+    </div>
+    
     </div>
     </main>
     <footer class="container">
@@ -153,10 +158,19 @@
       <script src="jquery-3.5.1.slim.min.js.download"></script>
       <script src="bootstrap.bundle.min.js.download"></script>
       <script src="https://kit.fontawesome.com/812a03be35.js"></script>
-      <script>$(document).ready(function(){
-        $('button').click(function(){
-            $('.alert').show()
-        }) 
-    });</script>
+      
+    <script type="text/javascript">
+      function f() {
+  
+        document.getElementById("alert").hidden = false;
+        setTimeout(function () {
+          
+          window.location.href="Articoli.html";
+        }, 1200);
+        
+  
+      }
+    </script>
+    
 </body>
 </html>
