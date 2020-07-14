@@ -11,7 +11,7 @@
           <div class="row">
             <div class="col-md-9 col-lg-8 mx-auto">
               <h3 class="login-heading mb-4">Bentornato!</h3>
-              <form>
+              <form action="#">
                 <div class="form-label-group">
                   <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
                   <label for="inputEmail">Email</label>
@@ -26,13 +26,15 @@
                   <input type="checkbox" class="custom-control-input" id="customCheck1">
                   <label class="custom-control-label" for="customCheck1">Ricorda password</label>
                 </div>
-                <button class="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2" type="submit">Login</button>
-                <div class="text-center">
+                
+                <table >
+                <tr><td><button class="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2" style="width:200px;" onclick="location.href='UserHome.html'">Indietro</button></td>
+                <td><button class="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2" style="width:200px;" type="submit">Login</button></td></tr></table>
+                </form>
                   
-              </form>
-              <h3 class="login-heading mb-4">Non hai ancora registrato la tua azienda?  <a class="btn-registrati" href="RegistrazioneAzienda.html"> Registrala! </a> </h3> 
-
               
+              <h3 class="login-heading mb-4">Non hai ancora registrato la tua azienda?  <a class="btn-registrati" href="RegistrazioneAzienda.html"> Registrala! </a> </h3> 
+               
             </div>
           </div>
         </div>
