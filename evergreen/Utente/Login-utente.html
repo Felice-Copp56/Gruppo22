@@ -1,7 +1,7 @@
-<link href="login.css" rel="stylesheet" type="text/css">
-<link href="bootstrap.min.css" rel="stylesheet" type="text/css">
-<script src="query-3.5.1.slim.min.js.download"></script>
-<script src="bootstrap.boundle.min.js.download"></script>
+<link href="../css/login.css" rel="stylesheet" type="text/css">
+<link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<script src="../js/query-3.5.1.slim.min.js.download"></script>
+<script src="../js/bootstrap.boundle.min.js.download"></script>
 <div class="container-fluid">
   <div class="row no-gutter">
     <div class="d-none d-md-flex col-md-4 col-lg-6 bg-image"></div>
@@ -11,7 +11,7 @@
           <div class="row">
             <div class="col-md-9 col-lg-8 mx-auto">
               <h3 class="login-heading mb-4">Bentornato!</h3>
-              <form action="#">
+              <form action="annunci.html">
                 <div class="form-label-group">
                   <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
                   <label for="inputEmail">Email</label>
@@ -26,15 +26,13 @@
                   <input type="checkbox" class="custom-control-input" id="customCheck1">
                   <label class="custom-control-label" for="customCheck1">Ricorda password</label>
                 </div>
-                
                 <table >
-                <tr><td><button class="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2" style="width:200px;" onclick="location.href='UserHome.html'">Indietro</button></td>
+                <tr><td><button class="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2" style="width:200px;" onclick="location.href='../No-Login/UserHome.html'">Indietro</button></td>
                 <td><button class="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2" style="width:200px;" type="submit">Login</button></td></tr></table>
-                </form>
+                <div class="text-center">
                   
-              
-              <h3 class="login-heading mb-4">Non hai ancora registrato la tua azienda?  <a class="btn-registrati" href="RegistrazioneAzienda.html"> Registrala! </a> </h3> 
-               
+              </form>
+              <h3 class="login-heading mb-4">Non sei registrato?  <a class="btn-registrati" href="RegistrazioneUtente.html"> Registrati! </a> </h3> 
             </div>
           </div>
         </div>

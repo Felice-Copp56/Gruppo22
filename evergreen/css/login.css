@@ -9,7 +9,7 @@
 }
 
 .bg-image {
-  background-image: url("img/sfondo-login.jpg");
+  background-image: url("../img/sfondo-login.jpg");
   background-size: cover;
   background-position: center;
 }
