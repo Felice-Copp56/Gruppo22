@@ -11,7 +11,7 @@ $(document).ready(function(){
          function(){
            var userRating = parseInt(this.value);
            var media_att=parseFloat(document.getElementById("media").textContent);
-           var media=(userRating+media_att)/2;
+           var media=Math.round(((userRating+media_att)/2)*10)/10;
            document.getElementById("media").innerHTML=media;
        }); 
        
